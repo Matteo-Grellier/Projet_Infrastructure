@@ -2,7 +2,7 @@
 
 ## Sommaire
 
-- ### Documentation d'architecture
+- ### **Documentation d'architecture**
     ### A. Schéma de l'architecture et détails du réseau  
     1. #### Schéma + explications
     2. #### Configuration du réseau (masque, IPv4, etc...)

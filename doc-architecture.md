@@ -58,7 +58,7 @@ Puis allez dans ***Réseau privé*** (ou ***Réseau public*** selon la configura
 
 Ensuite désactivez le pare-feu.
 
-
+![img](IMG/Desactivation_par-feu.png)
 
 
 

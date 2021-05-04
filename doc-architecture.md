@@ -19,7 +19,7 @@ Les PC sont reliés au **switch** avec les câbles RJ45, on crée donc un résea
 
 Les choses que nous avons fait pour que cette configuration fonctionne de manière sécurisée :
 
-## B - **Configuration** pour avoir un serveur utilisant un Annuaire et un GPO
+## A - **Configuration** pour avoir un serveur utilisant un Annuaire et un GPO
 
 1. **Configuration** du serveur Windows
 2. **Création** d’un domaine Active Directory
@@ -27,7 +27,7 @@ Les choses que nous avons fait pour que cette configuration fonctionne de maniè
 4. **Création** des comptes utilisateurs du domaine
 5. **Création** d’une **GPO**
 
-## A - Configuration minimale pour être dans le même réseau
+## B - Configuration minimale pour être dans le même réseau
 
 1) **Désactivation** des **autres réseaux**
 

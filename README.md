@@ -10,7 +10,7 @@
 
 2. #### Configuration du réseau (masque, IPv4, etc...)
 
-### B. [Configuration minimale pour être dans le même réseau.]
+### B. [Configuration minimale pour être dans le même réseau.](doc-architecture.md)
 
 1. #### Désactivation des autres réseaux
 

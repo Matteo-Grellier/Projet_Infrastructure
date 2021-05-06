@@ -10,7 +10,7 @@
 
 2. #### Configuration du réseau (masque, IPv4, etc...)
 
-### B. [Configuration minimale pour être dans le même réseau.](doc-architecture.md#b)
+### B. [Configuration minimale pour être dans le même réseau.](https://github.com/Matteo-Grellier/Projet_Infrastructure/blob/main/doc-architecture.md#b---configuration-minimale-pour-%C3%AAtre-dans-le-m%C3%AAme-r%C3%A9seau)
 
 1. #### Désactivation des autres réseaux
 

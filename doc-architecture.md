@@ -1,5 +1,7 @@
 # Documentation d’architecture
 
+## A - Schéma de l'architecture et détails du réseau
+
 (schéma)
 
 Notre architecture est composé de :
@@ -18,14 +20,6 @@ Les PC sont reliés au **switch** avec les câbles RJ45, on crée donc un résea
 - masque de sous-réseau : 255.255.252.0 (/22)
 
 Les choses que nous avons fait pour que cette configuration fonctionne de manière sécurisée :
-
-## A - **Configuration** pour avoir un serveur utilisant un Annuaire et un GPO
-
-1. **Configuration** du serveur Windows
-2. **Création** d’un domaine Active Directory
-3. **Configuration** du serveur DHCP
-4. **Création** des comptes utilisateurs du domaine
-5. **Création** d’une **GPO**
 
 ## B - Configuration minimale pour être dans le même réseau
 
@@ -71,3 +65,12 @@ On désactive la connexion aux autres réseaux (comme la désactivation de la WI
 
     1) Allez dans l'onglet réseau
     2) Dans la liste déroulante `Mode d'accès réseau` choisir `Accès par pont`
+    
+
+## C - **Configuration** pour avoir un serveur utilisant un Annuaire et un GPO
+
+1. **Configuration** du serveur Windows
+2. **Création** d’un domaine Active Directory
+3. **Configuration** du serveur DHCP
+4. **Création** des comptes utilisateurs du domaine
+5. **Création** d’une **GPO**

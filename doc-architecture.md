@@ -27,15 +27,15 @@ Pour déployer un serveur, il faut suivre certaines règles de bonnes pratiques 
 Il est important qu'un réseau soit sécurisé, pour éviter que l'on puisse notamment accéder aux ordinateurs qui composent ce réseau. C'est pour cela qu'il est important d'appliquer quelques solutions de sécurités comme par exemple : 
 
 -appliquer des mots de passe 
--des pare-feux
+-des pare-feu
 -des antivirus
 
-2. L'instalation :
-Désactiver Cortana
-accès par ponts ?
+2. L'installation :
+désactiver Cortana 
+accès par ponts .
 
 3.La nomenclature :
-Autre point important de bonne pratique, avoir une nomenclature correcte et précise, comme par exemple mettre un U au devant des GPO utilisateurs, pour spécifier qu'elle s'appliquent aux utilisateurs. Et tout simplement, d'avoir des noms indicatifs de l'utilité des GPO, groupes, ou utilisateurs.
+Autre point important de bonne pratique, avoir une nomenclature correcte et précise, comme par exemple mettre un U au devant des GPO utilisateurs, pour spécifier qu'elles s'appliquent aux utilisateurs. Et tout simplement, d'avoir des noms indicatifs de l'utilité des GPO, groupes, ou utilisateurs.
 
 ## C - **Configuration** pour avoir un serveur utilisant un Annuaire et un GPO
 

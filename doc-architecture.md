@@ -40,6 +40,29 @@ La configuration de la VM Windows Server est importante :
 3. La nomenclature :
 Autre point important de bonne pratique, avoir une nomenclature correcte et précise, comme par exemple mettre un U au devant des GPO utilisateurs, pour spécifier qu'elles s'appliquent aux utilisateurs. Et tout simplement, d'avoir des noms indicatifs de l'utilité des GPO, groupes, ou utilisateurs.
 
+4. Désactiver le par-feux : 
+**Désactivation** des **pare-feux** (après ne plus avoir accès à Internet).
+   1) Aller dans ***Paramètres réseau & Internet***
+
+   ![img](IMG/Image1.jpg)
+
+   2) Cliquer sur Pare-feu Windows
+
+   ![img](IMG/Image2.png)
+
+   3) Puis allez dans ***Réseau privé*** (ou ***Réseau public*** selon la configuration par défaut du réseau avec le switch)
+
+   ![img](IMG/Image3.png)
+
+   4) Ensuite désactivez le pare-feu.
+
+   ![img](IMG/Desactivation_par-feu.png)
+
+5. Désactivation du wifi :
+Il peut etre important de désactiver le wifi pour éviter tout problème : 
+
+![img](resources/images/screens/Wifi.png)
+
 ## C - **Configuration** pour avoir un serveur utilisant un Annuaire et une GPO
 
 0. **Installation** de Windows Server

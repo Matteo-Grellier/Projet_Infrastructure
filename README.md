@@ -22,7 +22,7 @@
 
 5. #### Configuration des VM (accès par ponts, etc…)
 
-### C. [Configuration pour avoir un serveur utilisant un Annuaire et un GPO.](doc-architecture.md)
+### C. [Configuration pour avoir un serveur utilisant un Annuaire et un GPO.](https://github.com/Matteo-Grellier/Projet_Infrastructure/blob/main/doc-architecture.md#c---configuration-pour-avoir-un-serveur-utilisant-un-annuaire-et-un-gpo)
 
 1. #### Configuration du serveur Windows
 

@@ -41,9 +41,30 @@ Autre point important de bonne pratique, avoir une nomenclature correcte et pré
 
 ## C - **Configuration** pour avoir un serveur utilisant un Annuaire et une GPO
 
+0. **Installation** de Windows Server
+
+Nous ne pouvons pas vous montrer l'installation d'une machine avec Windows Server. 
+
+Il suffit juste de récupérer un ISO d'une version *Windows Server*. (Dans le cas où vous avez une licence Microsoft adapté) Vous pouvez trouver un ISO [ici](https://portal.azure.com/?Microsoft_Azure_Education_correlationId=622a7312-a981-4b4f-927c-a746d7804853#blade/Microsoft_Azure_Education/EducationMenuBlade/software)
+
+Cliquez ensuite sur ***Generate URL***:
+
+![img](resources/images/screens/Capture_d’écran_2021-05-06_212926.jpg)
+
+Une fois l'ISO téléchargé, dans notre cas, on installe une VM à partir de cet ISO.
+
+![img](resources/images/screens/2021-05-06_213418.jpg)
+![img](resources/images/screens/2021-05-06_213600.jpg)
+![img](resources/images/screens/2021-05-06213652.jpg)
+
+Une fois le disque dur créé, suivez les étapes jusqu'à arrivé au moment où il faut choisir l'ISO.
+
+Une fois l'installation fait, lancez la VM et suivez les étapes pour installer Windows Server.
+
+
 1. **Configuration** du serveur Windows
 
-Une fois que le serveur est installé, il faut le configurer, quelques points sonts importants à prendre en compte :
+Une fois que Windows Server est installé, il faut le configurer, quelques points sonts importants à prendre en compte :
 
 - Il faut donner un nom explicite à son serveur 
 - Il faut lui attribuer une adresse IP fixe

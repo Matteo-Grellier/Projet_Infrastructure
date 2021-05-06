@@ -23,7 +23,7 @@ Les PC sont reliés au **switch** avec les câbles RJ45, on crée donc un résea
 
 Pour déployer un serveur, il faut suivre certaines règles de bonnes pratiques :
 
-1.La sécurité :
+1. La sécurité :
 Il est important qu'un réseau soit sécurisé, pour éviter que l'on puisse notamment accéder aux ordinateurs qui composent ce réseau. C'est pour cela qu'il est important d'appliquer quelques solutions de sécurités comme par exemple : 
 
   - appliquer des mots de passe
@@ -31,12 +31,13 @@ Il est important qu'un réseau soit sécurisé, pour éviter que l'on puisse not
   - des antivirus
   - un protocole DHCP, pour éviter les problèmes et/ou failles potentielles 
 
-2.L'installation :
-désactiver Cortana 
-accès par ponts
-DHCP ici ?
+2. L'installation :
 
-3.La nomenclature :
+La configuration de la VM Windows Server est importante :
+   - Alloué 2Go de mémoire au minimum (plus si possible)
+   - Suivre les paramètres recommandés pour l'espace disque (taille, allocation etc...)
+
+3. La nomenclature :
 Autre point important de bonne pratique, avoir une nomenclature correcte et précise, comme par exemple mettre un U au devant des GPO utilisateurs, pour spécifier qu'elles s'appliquent aux utilisateurs. Et tout simplement, d'avoir des noms indicatifs de l'utilité des GPO, groupes, ou utilisateurs.
 
 ## C - **Configuration** pour avoir un serveur utilisant un Annuaire et une GPO

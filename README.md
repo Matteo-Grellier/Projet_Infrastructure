@@ -12,7 +12,11 @@
 2. #### Configuration du réseau (masque, IPv4, etc...)
 
 ### B. [Mise en œuvre des bonnes pratiques]()
+1. #### La sécurité
 
+2. #### L'installation
+
+3. #### La nomenclature
 
 ### C. [Configuration pour avoir un serveur utilisant un Annuaire et une GPO.](https://github.com/Matteo-Grellier/Projet_Infrastructure/blob/main/doc-architecture.md#c---configuration-pour-avoir-un-serveur-utilisant-un-annuaire-et-une-gpo)
 

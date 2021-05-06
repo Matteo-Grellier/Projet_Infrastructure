@@ -77,9 +77,6 @@ Une fois que Windows Server est installé, il faut le configurer, quelques point
 Maintenant que le serveur est installé et configurer, il faut maintennat installer un Active Directory (ou AD) qui sert de système de gestion du domaine.
 
 
+3. **Création** des comptes utilisateurs du domaine
 
-3. **Configuration** du serveur DHCP
-
-4. **Création** des comptes utilisateurs du domaine
-
-5. **Création** d’une **GPO**
+4. **Création** d’une **GPO**

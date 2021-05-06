@@ -66,7 +66,6 @@ On désactive la connexion aux autres réseaux (comme la désactivation de la WI
     1) Allez dans l'onglet réseau
     2) Dans la liste déroulante `Mode d'accès réseau` choisir `Accès par pont`
 
-
 ## C - **Configuration** pour avoir un serveur utilisant un Annuaire et un GPO
 
 1. **Configuration** du serveur Windows

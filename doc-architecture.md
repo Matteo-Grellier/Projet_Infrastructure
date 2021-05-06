@@ -89,7 +89,7 @@ Il peut etre important de désactiver le wifi pour éviter tout problème :
 
 1. **Configuration** du serveur Windows
 
-Une fois que Windows Server est installé, il faut le configurer, quelques points sonts importants à prendre en compte :
+Une fois que le serveur est installé, il faut le configurer, quelques points sonts importants à prendre en compte :
 
 - Il faut donner un nom explicite à son serveur 
 - Il faut lui attribuer une adresse IP fixe
@@ -98,8 +98,12 @@ Une fois que Windows Server est installé, il faut le configurer, quelques point
 
 2. **Création** d’un domaine Active Directory
 
-Maintenant que le serveur est installé et configurer, il faut maintennat installer un Active Directory (ou AD) qui sert de système de gestion du domaine.
+Maintenant que le serveur est installé et configuré, il faut maintennat installer un Active Directory (ou AD) qui sert de système de gestion du domaine, et qui nous permettera de relier tout les utilisateures, ainsi que de maitriser leurs droits.
 
+- Dans une session administrateur, on installe le "Services AD DS" dans "Installation basée sur un rôle ou une fonctionnalité"
+- Puis on promouvoie le serveur en contrôleur de domaine
+- On créé ensuite une nouvelle forêt, auquelon donne un nom de domaine racine, comme domaine.local ou nom-de-l-entreprise.local
+- 
 
 3. **Création** des comptes utilisateurs du domaine
 

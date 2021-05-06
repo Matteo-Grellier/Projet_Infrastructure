@@ -12,47 +12,13 @@
 2. #### Configuration du réseau (masque, IPv4, etc...)
 
 ### B. [Mise en œuvre des bonnes pratiques]()
-Pour déployer un serveur, il faut suivre certaines règles de bonnes pratiques :
 
-1.La sécurité :
-
-Il est important qu'un réseau soit sécurisé, pour éviter que l'on puisse notamment accéder aux ordinateurs qui composent ce réseau. C'est pour cela qu'il est important d'appliquer quelques solutions de sécurités comme par exemple : 
-
-  - appliquer des mots de passe
-  - des pare-feux
-  - des antivirus
-  - un protocole DHCP, pour éviter les problèmes et/ou failles potentielles 
-
-2.L'installation :
-
-désactiver Cortana 
-accès par ponts
-DHCP ici ?
-
-3.La nomenclature :
-
-Autre point important de bonne pratique, avoir une nomenclature correcte et précise, comme par exemple mettre un U au devant des GPO utilisateurs, pour spécifier qu'elles s'appliquent aux utilisateurs. Et tout simplement, d'avoir des noms indicatifs de l'utilité des GPO, groupes, ou utilisateurs.
 
 ### C. [Configuration pour avoir un serveur utilisant un Annuaire et une GPO.](https://github.com/Matteo-Grellier/Projet_Infrastructure/blob/main/doc-architecture.md#c---configuration-pour-avoir-un-serveur-utilisant-un-annuaire-et-une-gpo)
 
 1. #### Configuration du serveur Windows
 
-Une fois que le serveur est installé, il faut le configurer, quelques points sonts importants à prendre en compte :
-
-- Il faut donner un nom explicite à son serveur 
-- Il faut lui attribuer une adresse IP fixe
-- Il faut activer le Windows Update ainsi que le Windows Defender pour des raisons évidentes de sécurité.
-- Et enfin, il faut redémarrer le serveur pour que les modifications soient prises en compte
-
 2. #### Création d’un domaine Active Directory
-
-Maintenant que le serveur est installé et configuré, il faut maintennat installer un Active Directory (ou AD) qui sert de système de gestion du domaine, et qui nous permettera de relier tout les utilisateures, ainsi que de maitriser leurs droits.
-
-- Dans une session administrateur, on installe le "Services AD DS" dans "Installation basée sur un rôle ou une fonctionnalité"
-- Puis on promouvoie le serveur en contrôleur de domaine
-- On créé ensuite une nouvelle forêt, auquelon donne un nom de domaine racine, comme domaine.local ou nom-de-l-entreprise.local
-- 
-
 
 3. #### Configuration du serveur DHCP
 

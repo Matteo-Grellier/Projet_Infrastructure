@@ -89,7 +89,9 @@ Il peut etre important de désactiver le wifi pour éviter tout problème :
 
 1. **Configuration** du serveur Windows
 
-Une fois que le serveur est installé, il faut le configurer, quelques points sonts importants à prendre en compte :
+Une fois que le serveur est installé, il faut le configurer,
+
+Pour cela, il faut cliquer sur ***Configurer ce serveur local***. Afin que le serveur soit bien configuré, quelques points sonts importants à prendre en compte :
 
 - Il faut donner un nom explicite à son serveur 
 - Il faut lui attribuer une adresse IP fixe

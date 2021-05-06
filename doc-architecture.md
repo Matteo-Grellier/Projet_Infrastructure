@@ -23,7 +23,7 @@ Les PC sont reliés au **switch** avec les câbles RJ45, on crée donc un résea
 
 Pour déployer un serveur, il faut suivre certaines règles de bonnes pratiques :
 
-1. La sécurité :
+1.La sécurité :
 Il est important qu'un réseau soit sécurisé, pour éviter que l'on puisse notamment accéder aux ordinateurs qui composent ce réseau. C'est pour cela qu'il est important d'appliquer quelques solutions de sécurités comme par exemple : 
 
   -appliquer des mots de passe
@@ -32,7 +32,7 @@ Il est important qu'un réseau soit sécurisé, pour éviter que l'on puisse not
   
   -des antivirus
 
-2. L'installation :
+2.L'installation :
 désactiver Cortana 
 accès par ponts .
 

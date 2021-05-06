@@ -26,6 +26,8 @@
 
 5. #### Création d’une GPO
 
+---
+
 ### Documentation d'exploitation
 
 ### B. [Configuration minimale pour être dans le même réseau.](https://github.com/Matteo-Grellier/Projet_Infrastructure/blob/main/doc-architecture.md#b---configuration-minimale-pour-%C3%AAtre-dans-le-m%C3%AAme-r%C3%A9seau)

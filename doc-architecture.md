@@ -2,7 +2,7 @@
 
 ## A - Schéma de l'architecture et détails du réseau
 
-(schéma)
+![img](resources\images\screens\schéma.png)
 
 Notre architecture est composé de :
 un switch (+ câbles RJ45)

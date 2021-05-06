@@ -19,7 +19,7 @@ Les PC sont reliés au **switch** avec les câbles RJ45, on crée donc un résea
 - adresse de broadcast : 10.44.19.255
 - masque de sous-réseau : 255.255.252.0 (/22)
 
-Les choses que nous avons fait pour que cette configuration fonctionne de manière sécurisée :
+## B - Mise en œuvre des bonnes pratiques
 
 ## C - **Configuration** pour avoir un serveur utilisant un Annuaire et un GPO
 

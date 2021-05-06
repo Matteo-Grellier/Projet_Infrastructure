@@ -26,7 +26,6 @@
 
 5. #### Création d’une GPO
 
----
 
 ### Documentation d'exploitation
 

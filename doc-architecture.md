@@ -102,8 +102,9 @@ Maintenant que le serveur est installé et configuré, il faut maintennat instal
 
 - Dans une session administrateur, on installe le "Services AD DS" dans "Installation basée sur un rôle ou une fonctionnalité"
 - Puis on promouvoie le serveur en contrôleur de domaine
-- On créé ensuite une nouvelle forêt, auquelon donne un nom de domaine racine, comme domaine.local ou nom-de-l-entreprise.local
-- 
+- On créé ensuite une nouvelle forêt, auquel on donne un nom de domaine racine, comme domaine.local ou nom-de-l-entreprise.local (et un nom de NetBIOS pour les anciennes verisons)
+- Et on valide l’emplacement (il est conseillé de laisser le chemin par défaut)
+- Enfin, on redémarre la session, et l'Active Directory est installé
 
 3. **Création** des comptes utilisateurs du domaine
 

@@ -26,11 +26,9 @@ Pour déployer un serveur, il faut suivre certaines règles de bonnes pratiques 
 1.La sécurité :
 Il est important qu'un réseau soit sécurisé, pour éviter que l'on puisse notamment accéder aux ordinateurs qui composent ce réseau. C'est pour cela qu'il est important d'appliquer quelques solutions de sécurités comme par exemple : 
 
-  -appliquer des mots de passe
-  
-  -des pare-feux
-  
-  -des antivirus
+  - appliquer des mots de passe
+  - des pare-feux
+  - des antivirus
 
 2.L'installation :
 désactiver Cortana 
@@ -42,7 +40,22 @@ Autre point important de bonne pratique, avoir une nomenclature correcte et pré
 ## C - **Configuration** pour avoir un serveur utilisant un Annuaire et une GPO
 
 1. **Configuration** du serveur Windows
+
+Une fois que le serveur est installé, il faut le configurer, quelques points sonts importants à prendre en compte :
+
+- Il faut donner un nom explicite à son serveur 
+- Il faut lui attribuer une adresse IP fixe
+- Il faut activer le Windows Update ainsi que le Windows Defender pour des raisons évidentes de sécurité.
+- Et enfin, il faut redémarrer le serveur pour que les modifications soient prises en compte
+
 2. **Création** d’un domaine Active Directory
+
+Maintenant que le serveur est installé et configurer, il faut maintennat installer un Active Directory (ou AD) qui sert de système de gestion du domaine.
+
+
+
 3. **Configuration** du serveur DHCP
+
 4. **Création** des comptes utilisateurs du domaine
+
 5. **Création** d’une **GPO**

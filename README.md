@@ -1,5 +1,6 @@
 # PARTAGE RÉSEAUX ET ANNUAIRE
 
+--- 
 ## Sommaire
 
 - ### **Documentation d'architecture**
@@ -13,7 +14,7 @@
 ### B. [Mise en œuvre des bonnes pratiques]()
 
 
-### C. [Configuration pour avoir un serveur utilisant un Annuaire et un GPO.](https://github.com/Matteo-Grellier/Projet_Infrastructure/blob/main/doc-architecture.md#c---configuration-pour-avoir-un-serveur-utilisant-un-annuaire-et-un-gpo)
+### C. [Configuration pour avoir un serveur utilisant un Annuaire et une GPO.](https://github.com/Matteo-Grellier/Projet_Infrastructure/blob/main/doc-architecture.md#c---configuration-pour-avoir-un-serveur-utilisant-un-annuaire-et-une-gpo)
 
 1. #### Configuration du serveur Windows
 
@@ -38,3 +39,12 @@
 4. #### Configuration du DNS
 
 5. #### Configuration des VM (accès par ponts, etc…)
+
+--- 
+## Conclusion
+
+Nous avons réussi à faire un partage de fichier via GPO ce qui est pour nous une réussite !
+
+L'intérêt du projet est dans les choses qu'on a pu apprendre, on en a un peu plus appris sur la configuration d'un serveur et sur l'infrastructure en général.
+
+Nous avons réussi à faire ce qui était demandé. Nous avons donc réussi à créer un serveur et à avoir une interaction entre Server/Client. Nous avons aussi créér des utilisateurs dans une "OU" (Unités d'Organisation).

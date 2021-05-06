@@ -28,7 +28,7 @@ Il est important qu'un réseau soit sécurisé, pour éviter que l'on puisse not
 
   -appliquer des mots de passe
   
-  -des pare-feu
+  -des pare-feux
   
   -des antivirus
 
@@ -39,7 +39,7 @@ accès par ponts
 3.La nomenclature :
 Autre point important de bonne pratique, avoir une nomenclature correcte et précise, comme par exemple mettre un U au devant des GPO utilisateurs, pour spécifier qu'elles s'appliquent aux utilisateurs. Et tout simplement, d'avoir des noms indicatifs de l'utilité des GPO, groupes, ou utilisateurs.
 
-## C - **Configuration** pour avoir un serveur utilisant un Annuaire et un GPO
+## C - **Configuration** pour avoir un serveur utilisant un Annuaire et une GPO
 
 1. **Configuration** du serveur Windows
 2. **Création** d’un domaine Active Directory

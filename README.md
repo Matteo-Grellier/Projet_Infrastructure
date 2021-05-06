@@ -4,7 +4,7 @@
 
 - ### **Documentation d'architecture**
 
-### A. [Schéma de l'architecture et détails du réseau](doc-architecture.md)
+### A. [Schéma de l'architecture et détails du réseau](https://github.com/Matteo-Grellier/Projet_Infrastructure/blob/main/doc-architecture.md#a---sch%C3%A9ma-de-larchitecture-et-d%C3%A9tails-du-r%C3%A9seau)
 
 1. #### Schéma + explications
 

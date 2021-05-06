@@ -32,15 +32,15 @@ On désactive la connexion aux autres réseaux (comme la désactivation de la WI
 
    ![img](IMG/Image1.jpg)
 
-   1) Cliquer sur Pare-feu Windows
+   2) Cliquer sur Pare-feu Windows
 
    ![img](IMG/Image2.png)
 
-   1) Puis allez dans ***Réseau privé*** (ou ***Réseau public*** selon la configuration par défaut du réseau avec le switch)
+   3) Puis allez dans ***Réseau privé*** (ou ***Réseau public*** selon la configuration par défaut du réseau avec le switch)
 
    ![img](IMG/Image3.png)
 
-   1) Ensuite désactivez le pare-feu.
+   4) Ensuite désactivez le pare-feu.
 
    ![img](IMG/Desactivation_par-feu.png)
 
@@ -65,7 +65,7 @@ On désactive la connexion aux autres réseaux (comme la désactivation de la WI
 
     1) Allez dans l'onglet réseau
     2) Dans la liste déroulante `Mode d'accès réseau` choisir `Accès par pont`
-    
+
 
 ## C - **Configuration** pour avoir un serveur utilisant un Annuaire et un GPO
 

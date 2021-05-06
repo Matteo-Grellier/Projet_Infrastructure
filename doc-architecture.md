@@ -109,5 +109,29 @@ Maintenant que le serveur est installé et configuré, il faut maintennat instal
 - Enfin, on redémarre la session, et l'Active Directory est installé
 
 3. **Création** des comptes utilisateurs du domaine
+Il est important de créer des utilisateurs afin que les machines client puissent rejoindre le domaine.
+
+Pour créer un utilisateur, il faut :
+
+Tout d'abord, dans le **gestionnaire de serveur**, cliquez sur l'onglet **Outils** puis sur l'élément **Utilisateurs et ordinateurs Active Directory**.
+
+![img](resources/images/screens/installation_ad/Capture_d’écran_34.png)
+
+Une fois la fenêtre *Utilisateurs et ordinateurs Active Directory*, on peut créer un nouveau dossier qui sera notre **OU** (*Unité d’Organisation*) et qui aura nos utilisateurs de notre domaine (plus simple pour la gestion de créer notre propre *OU*). Pour ce faire, on clique droit sur le nom de notre domaine (*ltdm.local* dans notre cas) puis dans *Nouveau*, on créé une nouvelle *Unité d’Organisation* à laquelle on devra donner un nom, donc choisir un nom cohérent.
+
+![img](resources/images/screens/installation_ad/Capture_d’écran_36.png)
+
+![img](resources/images/screens/installation_ad/Capture_d’écran_37.png)
+
+Clic droit sur la nouvelle *OU* et créé un **nouvelle Utilisateur** en faisant *Nouveau > Utilisateur*
+
+![img](resources/images/screens/installation_ad/Capture_d’écran_38.png)
+
+Vous pouvez donc donner un *nom*, *prénom*, mais aussi le *nom d'ouverture de session*. Il est plus intéressant de garder la même forme pour le *nom de session* afin de s'y retrouver facilement.
+
+![img](resources/images/screens/installation_ad/Capture_d’écran_39.png)
+
+On choisi donc un mot de passe pour le compte, puis les règles qui lui sont appliqués comme : "Le mot de passe n'expire jamais".
+
 
 4. **Création** d’une **GPO**

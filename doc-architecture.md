@@ -135,7 +135,11 @@ Vous pouvez donc donner un *nom*, *prénom*, mais aussi le *nom d'ouverture de s
 On choisi donc un mot de passe pour le compte, puis les règles qui lui sont appliqués comme : "Le mot de passe n'expire jamais".
 
 
-### 4. **Création** d’une **GPO**
+4. **Création** d'un partage de fichier à l'aide d’une **GPO**
+
+- bah d'abord ta mère 
+
+
 
 ## D - Les configurations pour créer un espace centralisé de partage (les choses à faire avant de rejoindre le domaine)
 

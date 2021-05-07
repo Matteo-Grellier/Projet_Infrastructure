@@ -197,6 +197,6 @@ Il y a plusieurs petites choses à faire afin d'avoir une communication possible
 2) Dans la liste déroulante `Mode d'accès réseau` choisir `Accès par pont`
 
 **Attention** : Il faut bien mettre le nom de son interface réseau correspondant.
-![img](resources\images\screens\louis-infra\acces_par_pont.png)
+![img](resources/images/screens/louis-infra/acces_par_pont.png)
     
 

@@ -33,13 +33,13 @@ En **globalité**, une personne se chargeait de **faire la configuration** rése
 
 ### **Documentation d'architecture**
 
-### A. [Schéma de l'architecture et détails du réseau](https://github.com/Matteo-Grellier/Projet_Infrastructure/blob/main/doc-architecture.md#a---sch%C3%A9ma-de-larchitecture-et-d%C3%A9tails-du-r%C3%A9seau)
+### A. [Schéma de l'architecture et détails du réseau](doc-architecture.md#a---sch%C3%A9ma-de-larchitecture-et-d%C3%A9tails-du-r%C3%A9seau)
 
 1. #### Schéma + explications
 
 2. #### Configuration du réseau (masque, IPv4, etc...)
 
-### B. [Mise en œuvre des bonnes pratiques]()
+### B. [Mise en œuvre des bonnes pratiques](doc-architecture.md#b---mise-en-œuvre-des-bonnes-pratiques)
 
 1. #### La sécurité
 
@@ -48,7 +48,7 @@ En **globalité**, une personne se chargeait de **faire la configuration** rése
 3. #### La nomenclature
 
 
-### C. [Configuration pour avoir un serveur utilisant un Annuaire et une GPO.](https://github.com/Matteo-Grellier/Projet_Infrastructure/blob/main/doc-architecture.md#c---configuration-pour-avoir-un-serveur-utilisant-un-annuaire-et-une-gpo)
+### C. [Configuration pour avoir un serveur utilisant un Annuaire et une GPO.](doc-architecture.md#c---configuration-pour-avoir-un-serveur-utilisant-un-annuaire-et-une-gpo)
 
 1. #### Configuration du serveur Windows
 

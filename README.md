@@ -77,9 +77,11 @@ En **globalité**, une personne se chargeait de **faire la configuration** rése
 
 ### Documentation d'exploitation
 
-### A. Allumer les VMs clients
+### A.[ Allumer les VMs clients](doc-exploitation.md#a-allumer-les-vms-clients)
 
-### B. 
+### B. [Connexion au domaine](doc-exploitation.md#b---connexion-au-domaine)
+
+### C. [Application d'une GPO](doc-exploitation.md#c---application-dune-gpo)
 
 ---
 

@@ -163,7 +163,7 @@ La solution pour partager des fichiers entre différents utilisateurs est de cr�
 - Une fois que tout ceci est fait, on peut appliquer cette GPO à un groupe spécifique.
 Dans les propriétés du mappeur réseau, on fait un ciblage :
 ![img](/resources/images/screens/gpo/Capture_d’écran_19.png)
-Dans lequel on chosis son groupe d'utilisateur (ici LTDM)
+Dans lequel on choisis son groupe d'utilisateur (ici LTDM)
 ![img](/resources/images/screens/gpo/Capture_d’écran_20.png)
 
 ## D - Les configurations pour créer un espace centralisé de partage (les choses à faire avant de rejoindre le domaine)
@@ -197,6 +197,6 @@ Il y a plusieurs petites choses à faire afin d'avoir une communication possible
 2) Dans la liste déroulante `Mode d'accès réseau` choisir `Accès par pont`
 
 **Attention** : Il faut bien mettre le nom de son interface réseau correspondant.
-![img](resources\images\screens\louis-infra\acces_par_pont.png)
+![img](resources/images/screens/louis-infra/acces_par_pont.png)
     
 

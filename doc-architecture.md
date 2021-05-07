@@ -136,3 +136,33 @@ On choisi donc un mot de passe pour le compte, puis les règles qui lui sont app
 
 
 4. **Création** d’une **GPO**
+
+## D - Les configurations pour créer un espace centralisé de partage (les choses à faire avant de rejoindre le domaine)
+
+Il y a plusieurs petites choses à faire afin d'avoir une communication possible entre les clients / serveur dans le sous-réseau.
+
+1) **Configuration** manuel des **adresses IPv4** pour chaque **PC** et pour leur VM.
+   1) Parametres
+   2) Réseau et Internet
+   3) Centre réseau et partage
+   4) Cliquer comme sur l'image
+
+   ![img](IMG/parametre_du_reseau.png)
+
+   1) Propriétés
+   2) Chercher `Protocole internet version 4` et double cliquer dessus
+   3) Et ici vous pouvez attribuer une IP personnalisée
+
+2) **Configuration** du **DNS**
+    1) Suivre les instructions comme ci-dessus
+    2) Mettre l’adresse IPv4 de la **machine serveur**.
+
+3) **Configuration** des **VM** (accès par ponts, etc…)
+    1) Dans virtual box choissisez la vm a parametrer
+    2) cliquer sur configurer
+
+   ![img](IMG/bouton_configuration.png)
+
+    1) Allez dans l'onglet réseau
+    2) Dans la liste déroulante `Mode d'accès réseau` choisir `Accès par pont`
+

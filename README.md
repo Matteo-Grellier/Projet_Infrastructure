@@ -50,8 +50,6 @@ Notre **solution** comporte :
 5. #### Création d’une GPO
 
 
-### Documentation d'exploitation
-
 ### D. [Les configurations pour créer un espace centralisé de partage](https://github.com/Matteo-Grellier/Projet_Infrastructure/blob/main/doc-architecture.md#d---les-configurations-pour-cr%C3%A9er-un-espace-centralis%C3%A9-de-partage-les-choses-%C3%A0-faire-avant-de-rejoindre-le-domaine)
 
 1. #### Désactivation des autres réseaux
@@ -63,6 +61,15 @@ Notre **solution** comporte :
 4. #### Configuration du DNS
 
 5. #### Configuration des VM (accès par ponts, etc…)
+
+
+### Documentation d'exploitation
+
+### A. Allumer les VMs clients
+
+### B. 
+
+
 
 --- 
 ## :triangular_flag_on_post: Conclusion
@@ -85,6 +92,14 @@ De plus, nous avons réussi l'**utilisation de GPO**, dans un premier temps (afi
 
 En revanche, il nous manque une **configuration du DHCP**.
 
+Pour aller plus loin, on aurait surement pu faire plus de GPO afin de faire une "hiérarchie".
+
+De plus, il aurait été surement possible de travailler le côté **sécurité** de notre **Infrastructure** : Voir une **configuration du pare-feu personnalisé** pour éviter des problèmes et permettre une **naviguation sur internet "sans danger"**.
+
 ---
 
 ## :bulb: Rétrospective
+
+
+
+

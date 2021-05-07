@@ -157,6 +157,8 @@ Il y a plusieurs petites choses à faire afin d'avoir une communication possible
 1) Suivre les instructions comme ci-dessus
 2) Mettre l’adresse IPv4 de la **machine serveur**.
 
+![img](resources/images/screens/dns.png)
+
 ### 3) **Configuration** des **VM** (accès par ponts, etc…)
 1) Dans virtual box choissisez la VM à parametrer
 2) cliquer sur configurer

@@ -18,7 +18,18 @@ Notre **solution** comporte :
 - Un **lecteur partagé** via **GPO**
 
 ---
-## :clipboard: Sommaire
+
+## :bar_chart: La méthodologie
+
+Nous avons utilisé **Miro** pour faire les schémas de notre architecture.
+
+Nous avons utilisé **Trello** pour l'organisation.
+
+En **globalité**, une personne se chargeait de **faire la configuration** réseau pendant qu'un autre **cherchait de la documentation** pour aider à la configuration. Le 3ème, s'occupait de faire les **tests avec une VM Client**.
+
+---
+
+## :clipboard: Sommaire de la documentation
 
 ### **Documentation d'architecture**
 
@@ -72,7 +83,7 @@ Notre **solution** comporte :
 
 
 --- 
-## :triangular_flag_on_post: Conclusion
+## :triangular_flag_on_post: Conclusion et rétrospective
 
 
 
@@ -96,9 +107,8 @@ Pour aller plus loin, on aurait surement pu faire plus de GPO afin de faire une 
 
 De plus, il aurait été surement possible de travailler le côté **sécurité** de notre **Infrastructure** : Voir une **configuration du pare-feu personnalisé** pour éviter des problèmes et permettre une **naviguation sur internet "sans danger"**.
 
----
 
-## :bulb: Rétrospective
+
 
 
 

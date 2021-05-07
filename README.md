@@ -1,7 +1,7 @@
-# :card_box: PARTAGE RÉSEAUX ET ANNUAIRE
+# :file_folder: PARTAGE RÉSEAUX ET ANNUAIRE
 
 --- 
-## :desktop: Présentation du Projet
+## :computer: Présentation du Projet
 
 ### Notre but : 
 Permettre un espace centralisé d'hébergement, de consultation et de partage de document.
@@ -18,7 +18,7 @@ Notre **solution** comporte :
 - Un **lecteur partagé** via **GPO**
 
 ---
-## Sommaire
+## :clipboard: Sommaire
 
 ### **Documentation d'architecture**
 
@@ -59,7 +59,7 @@ Notre **solution** comporte :
 5. #### Configuration des VM (accès par ponts, etc…)
 
 --- 
-## Conclusion
+## :triangular_flag_on_post: Conclusion
 
 Nous avons réussi à faire un partage de fichier via GPO ce qui est pour nous une réussite !
 

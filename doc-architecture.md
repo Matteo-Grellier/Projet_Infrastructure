@@ -143,9 +143,18 @@ La solution pour partager des fichiers entre différents utilisateurs est de cr�
 image 68 69 70
 - Modifier ensuite les options de sécurité du dossier (ici encore avec tout les droits, et pour "utilisateur", donc tout le monde)
 image 71 72 73
-- Puis on active l'héritage 
+- On active ensuite l'héritage 
 image 74 75
--  
+- Puis on créé une nouvelle GPO nommé U_partage
+image 76.2
+- Auquel on ajoute un lecteur mappé (dans Modifier/Configuration utilisateur/Préférences/Paramètres Windows/Mappages de lecteurs.), auquel on configure un emplacement, une lettre (la dernière disponible) ... Et que l'on configure en Action "mise à jour"
+image 76.3 77 79
+- Une fois que tout ceci est fait, on peut appliquer cette GPO à un groupe spécifique.
+Dans les propriétés du mappeur réseau, on fait un ciblage :
+image 19
+Dans lequel on chosis son groupe d'utilisateur (ici LTDM)
+image 20
+
 
 
 ## D - Les configurations pour créer un espace centralisé de partage (les choses à faire avant de rejoindre le domaine)

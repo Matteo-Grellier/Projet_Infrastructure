@@ -50,6 +50,8 @@ En **globalité**, une personne se chargeait de **faire la configuration** rése
 
 ### C. [Configuration pour avoir un serveur utilisant un Annuaire et une GPO.](doc-architecture.md#c---configuration-pour-avoir-un-serveur-utilisant-un-annuaire-et-une-gpo)
 
+0. #### Choses basiques mais importantes
+
 1. #### Configuration du serveur Windows
 
 2. #### Création d’un domaine Active Directory

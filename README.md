@@ -9,7 +9,7 @@ Permettre un espace centralisé d'hébergement, de consultation et de partage de
 Il fallait donc créer un accès commun à des fichiers à travers un réseau.
 
 ### Notre solution : 
-Nous avons créé une solution qui permet le *partage de fichier* entre **plusieurs clients**, par le biais d'un lecteur dans un serveur (par GPO).
+Nous avons créé une solution qui permet le *partage de fichiers* entre **plusieurs clients**, par le biais d'un lecteur dans un serveur (par GPO).
 
 Notre **solution** comporte :
 - Un **serveur** et 2 **clients**
@@ -18,17 +18,28 @@ Notre **solution** comporte :
 - Un **lecteur partagé** via **GPO**
 
 ---
-## :clipboard: Sommaire
+
+## :bar_chart: La méthodologie
+
+Nous avons utilisé **Miro** pour faire les schémas de notre architecture.
+
+Nous avons utilisé **Trello** pour l'organisation.
+
+En **globalité**, une personne se chargeait de **faire la configuration** réseau pendant qu'un autre **cherchait de la documentation** pour aider à la configuration. Le 3ème, s'occupait de faire les **tests avec une VM Client**.
+
+---
+
+## :clipboard: Sommaire de la documentation
 
 ### **Documentation d'architecture**
 
-### A. [Schéma de l'architecture et détails du réseau](https://github.com/Matteo-Grellier/Projet_Infrastructure/blob/main/doc-architecture.md#a---sch%C3%A9ma-de-larchitecture-et-d%C3%A9tails-du-r%C3%A9seau)
+### A. [Schéma de l'architecture et détails du réseau](doc-architecture.md#a---sch%C3%A9ma-de-larchitecture-et-d%C3%A9tails-du-r%C3%A9seau)
 
 1. #### Schéma + explications
 
 2. #### Configuration du réseau (masque, IPv4, etc...)
 
-### B. [Mise en œuvre des bonnes pratiques]()
+### B. [Mise en œuvre des bonnes pratiques](doc-architecture.md#b---mise-en-%C5%93uvre-des-bonnes-pratiques)
 
 1. #### La sécurité
 
@@ -37,7 +48,7 @@ Notre **solution** comporte :
 3. #### La nomenclature
 
 
-### C. [Configuration pour avoir un serveur utilisant un Annuaire et une GPO.](https://github.com/Matteo-Grellier/Projet_Infrastructure/blob/main/doc-architecture.md#c---configuration-pour-avoir-un-serveur-utilisant-un-annuaire-et-une-gpo)
+### C. [Configuration pour avoir un serveur utilisant un Annuaire et une GPO.](doc-architecture.md#c---configuration-pour-avoir-un-serveur-utilisant-un-annuaire-et-une-gpo)
 
 1. #### Configuration du serveur Windows
 
@@ -49,8 +60,7 @@ Notre **solution** comporte :
 
 5. #### Création d’une GPO
 
-
-### D. [Les configurations pour créer un espace centralisé de partage](https://github.com/Matteo-Grellier/Projet_Infrastructure/blob/main/doc-architecture.md#d---les-configurations-pour-cr%C3%A9er-un-espace-centralis%C3%A9-de-partage-les-choses-%C3%A0-faire-avant-de-rejoindre-le-domaine)
+### D. [Les configurations pour créer un espace centralisé de partage](doc-architecture.md#d---les-configurations-pour-cr%C3%A9er-un-espace-centralis%C3%A9-de-partage-les-choses-%C3%A0-faire-avant-de-rejoindre-le-domaine)
 
 1. #### Désactivation des autres réseaux
 
@@ -72,15 +82,15 @@ Notre **solution** comporte :
 
 
 --- 
-## :triangular_flag_on_post: Conclusion
+## :triangular_flag_on_post: Conclusion et rétrospective
 
 
 
-Le **partage de fichier via GPO** est pour nous une réussite et un **aboutissement** de ce projet !
+Le **partage de fichiers via GPO** est pour nous une réussite et un **aboutissement** de ce projet !
 
-L'intérêt du projet est dans les choses qu'on a pu apprendre, comme la configuration d'un serveur et l'infrastructure réseaux en général. De plus, étant donnée un problème de connaissance acquise avec le cours... Ce projet nous a permis d'en apprendre plus sur le **fonctionnement d'un réseau**, de la configuration avec un **switch** et d'un **sous-réseau** privé.
+L'intérêt du projet est dans les choses qu'on a pu apprendre, comme la configuration d'un serveur et l'infrastructure réseaux en général. De plus, malgré un problème avec le cours, ce projet nous a permis de réparer nos lacunes et d'en apprendre plus sur le **fonctionnement d'un réseau**, de la configuration avec un **switch** et d'un **sous-réseau** privé.
 
-Nos **réussites fonctionnelle** sont les suivantes :
+Nos **réussites fonctionnelles** sont les suivantes :
 
 Nous avons réussi le projet dans sa **globalité**, c'est-à-dire, à faire ce qui était demandé.
 
@@ -92,13 +102,28 @@ De plus, nous avons réussi l'**utilisation de GPO**, dans un premier temps (afi
 
 En revanche, il nous manque une **configuration du DHCP**.
 
-Pour aller plus loin, on aurait surement pu faire plus de GPO afin de faire une "hiérarchie".
+Pour aller plus loin, on aurait sûrement pu faire plus de GPO afin de faire une "hiérarchie".
 
-De plus, il aurait été surement possible de travailler le côté **sécurité** de notre **Infrastructure** : Voir une **configuration du pare-feu personnalisé** pour éviter des problèmes et permettre une **naviguation sur internet "sans danger"**.
+De plus, il aurait été sûrement possible de travailler le côté **sécurité** de notre **Infrastructure** : Voir une **configuration du pare-feu personnalisé** pour éviter des problèmes et permettre une **navigation sur internet "sans danger"**.
 
 ---
 
-## :bulb: Rétrospective
+## :link: Liens
+
+### Du groupe
+
+#### Vers notre [github](https://github.com/Matteo-Grellier/Projet_Infrastructure) de la documentation.
+
+### Des sources
+
+#### Pour [la configuration du AD + OU](https://www.windows8facile.fr/ws2016-creer-domaine-active-directory-dns-dhcp/).
+
+#### Pour la première partie du [partage en GPO](https://www.pc2s.fr/dossier-partage-commun-aux-utilisateurs-dun-service-sur-serveur-ad/) avec le lecteur mappé.
+
+#### Pour la deuxième partie du [partage en GPO](https://www.pc2s.fr/gpo-monter-un-lecteur-reseau-mappage/) avec le lecteur mappé.
+
+
+
 
 
 

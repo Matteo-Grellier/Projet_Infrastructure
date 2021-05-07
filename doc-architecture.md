@@ -102,7 +102,7 @@ Pour cela, il faut cliquer sur ***Configurer ce serveur local***. Afin que le se
 
 Maintenant que le serveur est installé et configuré, il faut maintennat installer un Active Directory (ou AD) qui sert de système de gestion du domaine, et qui nous permettera de relier tout les utilisateures, ainsi que de maitriser leurs droits.
 
-![img](https://github.com/Matteo-Grellier/Projet_Infrastructure/blob/main/resources/images/screens/installation_ad/Capture%20d%E2%80%99%C3%A9cran%20(30).png)
+![img](resources/images/screens/installation_ad/Capture_d’écran_29.png)
 - Dans une session administrateur, on installe le "Services AD DS" dans "Installation basée sur un rôle ou une fonctionnalité"
 - Puis on promouvoie le serveur en contrôleur de domaine
 - On créé ensuite une nouvelle forêt, auquel on donne un nom de domaine racine, comme domaine.local ou nom-de-l-entreprise.local (et un nom de NetBIOS pour les anciennes verisons)
@@ -160,6 +160,8 @@ Il y a plusieurs petites choses à faire afin d'avoir une communication possible
 ### 2) **Configuration** du **DNS**
 1) Suivre les instructions comme ci-dessus
 2) Mettre l’adresse IPv4 de la **machine serveur**.
+
+![img](resources/images/screens/dns.png)
 
 ### 3) **Configuration** des **VM** (accès par ponts, etc…)
 1) Dans virtual box choissisez la VM à parametrer

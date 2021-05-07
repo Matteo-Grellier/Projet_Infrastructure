@@ -9,7 +9,7 @@ Permettre un espace centralisé d'hébergement, de consultation et de partage de
 Il fallait donc créer un accès commun à des fichiers à travers un réseau.
 
 ### Notre solution : 
-Nous avons créé une solution qui permet le *partage de fichier* entre **plusieurs clients**, par le biais d'un lecteur dans un serveur (par GPO).
+Nous avons créé une solution qui permet le *partage de fichiers* entre **plusieurs clients**, par le biais d'un lecteur dans un serveur (par GPO).
 
 Notre **solution** comporte :
 - Un **serveur** et 2 **clients**
@@ -87,11 +87,11 @@ En **globalité**, une personne se chargeait de **faire la configuration** rése
 
 
 
-Le **partage de fichier via GPO** est pour nous une réussite et un **aboutissement** de ce projet !
+Le **partage de fichiers via GPO** est pour nous une réussite et un **aboutissement** de ce projet !
 
-L'intérêt du projet est dans les choses qu'on a pu apprendre, comme la configuration d'un serveur et l'infrastructure réseaux en général. De plus, étant donnée un problème de connaissance acquise avec le cours... Ce projet nous a permis d'en apprendre plus sur le **fonctionnement d'un réseau**, de la configuration avec un **switch** et d'un **sous-réseau** privé.
+L'intérêt du projet est dans les choses qu'on a pu apprendre, comme la configuration d'un serveur et l'infrastructure réseaux en général. De plus, malgré un problème avec le cours, ce projet nous a permis de réparer nos lacunes et d'en apprendre plus sur le **fonctionnement d'un réseau**, de la configuration avec un **switch** et d'un **sous-réseau** privé.
 
-Nos **réussites fonctionnelle** sont les suivantes :
+Nos **réussites fonctionnelles** sont les suivantes :
 
 Nous avons réussi le projet dans sa **globalité**, c'est-à-dire, à faire ce qui était demandé.
 
@@ -103,9 +103,25 @@ De plus, nous avons réussi l'**utilisation de GPO**, dans un premier temps (afi
 
 En revanche, il nous manque une **configuration du DHCP**.
 
-Pour aller plus loin, on aurait surement pu faire plus de GPO afin de faire une "hiérarchie".
+Pour aller plus loin, on aurait sûrement pu faire plus de GPO afin de faire une "hiérarchie".
 
-De plus, il aurait été surement possible de travailler le côté **sécurité** de notre **Infrastructure** : Voir une **configuration du pare-feu personnalisé** pour éviter des problèmes et permettre une **naviguation sur internet "sans danger"**.
+De plus, il aurait été sûrement possible de travailler le côté **sécurité** de notre **Infrastructure** : Voir une **configuration du pare-feu personnalisé** pour éviter des problèmes et permettre une **navigation sur internet "sans danger"**.
+
+---
+
+## :link: Liens
+
+### Du groupe
+
+#### Vers notre [github](https://github.com/Matteo-Grellier/Projet_Infrastructure) de la documentation.
+
+### Des sources
+
+#### Pour [la configuration du AD + OU](https://www.windows8facile.fr/ws2016-creer-domaine-active-directory-dns-dhcp/).
+
+#### Pour la première partie du [partage en GPO](https://www.pc2s.fr/dossier-partage-commun-aux-utilisateurs-dun-service-sur-serveur-ad/) avec le lecteur mappé.
+
+#### Pour la deuxième partie du [partage en GPO](https://www.pc2s.fr/gpo-monter-un-lecteur-reseau-mappage/) avec le lecteur mappé.
 
 
 

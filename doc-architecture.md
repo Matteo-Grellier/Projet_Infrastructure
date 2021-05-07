@@ -156,17 +156,15 @@ La solution pour partager des fichiers entre différents utilisateurs est de cr�
 - Puis on créé une nouvelle GPO nommé U_partage
 
 ![img](/resources/images/screens/GPO_screens/Capture_d’écran_76.2.png)
-- Auquel on ajoute un lecteur mappé (dans Modifier/Configuration utilisateur/Préférences/Paramètres Windows/Mappages de lecteurs.), auquel on configure un emplacement, une lettre (la dernière disponible) ... Et que l'on configure en Action "mise à jour"
+- Et on ajoute un lecteur mappé, auquel on configure un emplacement, une lettre (la dernière disponible) et que l'on configure en Action "mise à jour" (dans Modifier/Configuration utilisateur/Préférences/Paramètres Windows/Mappages de lecteurs.)
 ![img](/resources/images/screens/GPO_screens/Capture_d’écran_76.3.png)
 ![img](/resources/images/screens/GPO_screens/Capture_d’écran_77.png)
 ![img](/resources/images/screens/GPO_screens/Capture_d’écran_79.png)
 - Une fois que tout ceci est fait, on peut appliquer cette GPO à un groupe spécifique.
 Dans les propriétés du mappeur réseau, on fait un ciblage :
 ![img](/resources/images/screens/gpo/Capture_d’écran_19.png)
-Dans lequel on chosis son groupe d'utilisateur (ici LTDM)
+Dans lequel on choisis son groupe d'utilisateur (ici LTDM)
 ![img](/resources/images/screens/gpo/Capture_d’écran_20.png)
-
-
 
 ## D - Les configurations pour créer un espace centralisé de partage (les choses à faire avant de rejoindre le domaine)
 

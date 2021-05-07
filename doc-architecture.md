@@ -4,7 +4,7 @@
 
 ![img](resources/images/screens/schema.png)
 
-Notre **architecture** est composé de :
+Notre **architecture** est composée de :
 un switch (+ câbles RJ45)
 3 PC
 2 VM Windows 10 (client)
@@ -27,7 +27,7 @@ Pour déployer un serveur, il faut suivre certaines règles de bonnes pratiques 
 Il est important qu'un réseau soit sécurisé, pour éviter que l'on puisse notamment accéder aux ordinateurs qui composent ce réseau. C'est pour cela qu'il est important d'appliquer quelques solutions de sécurités comme par exemple : 
 
   - appliquer des mots de passe
-  - des pare-feux
+  - des pare-feu
   - des antivirus
   - un protocole DHCP, pour éviter les problèmes et/ou failles potentielles 
 
@@ -35,7 +35,7 @@ Il est important qu'un réseau soit sécurisé, pour éviter que l'on puisse not
 
 La configuration de la VM Windows Server est importante :
    - Alloué 2Go de mémoire au minimum (plus si possible)
-   - Suivre les paramètres recommandés pour l'espace disque (taille, allocation etc...)
+   - Suivre les paramètres recommandés pour l'espace disque (taille, allocation, etc...)
 
 ### 3. La nomenclature :
 Autre point important de bonne pratique, avoir une nomenclature correcte et précise, comme par exemple mettre un U au devant des GPO utilisateurs, pour spécifier qu'elles s'appliquent aux utilisateurs. Et tout simplement, d'avoir des noms indicatifs de l'utilité des GPO, groupes, ou utilisateurs.
@@ -59,12 +59,12 @@ Une fois l'ISO téléchargé, dans notre cas, on installe une VM à partir de ce
 ![img](resources/images/screens/2021-05-06_213600.jpg)
 ![img](resources/images/screens/2021-05-06213652.jpg)
 
-Une fois le disque dur créé, suivez les étapes jusqu'à arrivé au moment où il faut choisir l'ISO.
+Une fois le disque dur créé, suivez les étapes jusqu'à arriver au moment où il faut choisir l'ISO.
 
 Une fois l'installation fait, lancez la VM et suivez les étapes pour installer Windows Server.
 
 ### 0. B - Désactiver le par-feux : 
-**Désactivation** des **pare-feux** (après ne plus avoir accès à Internet).
+**Désactivation** des **pare-feu** (après ne plus avoir accès à Internet).
    1) Aller dans ***Paramètres réseau & Internet***
 
    ![img](IMG/Image1.jpg)
@@ -91,26 +91,26 @@ Il peut etre important de désactiver le wifi pour éviter tout problème :
 
 Une fois que le serveur est installé, il faut le configurer,
 
-Pour cela, il faut cliquer sur ***Configurer ce serveur local***. Afin que le serveur soit bien configuré, quelques points sonts importants à prendre en compte :
+Pour cela, il faut cliquer sur ***Configurer ce serveur local***. Afin que le serveur soit bien configuré, quelques points sont importants à prendre en compte :
 
-- Il faut donner un nom explicite à son serveur 
-- Il faut lui attribuer une adresse IP fixe
+- Il faut donner un nom explicite à son serveur.
+- Il faut lui attribuer une adresse IP fixe.
 - Il faut activer le Windows Update ainsi que le Windows Defender pour des raisons évidentes de sécurité.
-- Et enfin, il faut redémarrer le serveur pour que les modifications soient prises en compte
+- Et enfin, il faut redémarrer le serveur pour que les modifications soient prises en compte.
 
 ### 2. **Création** d’un domaine Active Directory
 
-Maintenant que le serveur est installé et configuré, il faut maintennat installer un Active Directory (ou AD) qui sert de système de gestion du domaine, et qui nous permettera de relier tout les utilisateures, ainsi que de maitriser leurs droits.
+Maintenant que le serveur est installé et configuré, il faut maintenant installer un Active Directory (ou AD) qui sert de système de gestion du domaine, et qui nous permettra de relier tous les utilisateurs, ainsi que de maîtriser leurs droits.
 
 ![img](resources/images/screens/installation_ad/Capture_d’écran_29.png)
 - Dans une session administrateur, on installe le "Services AD DS" dans "Installation basée sur un rôle ou une fonctionnalité"
-- Puis on promouvoie le serveur en contrôleur de domaine
-- On créé ensuite une nouvelle forêt, auquel on donne un nom de domaine racine, comme domaine.local ou nom-de-l-entreprise.local (et un nom de NetBIOS pour les anciennes verisons)
+- Puis on promouvoit le serveur en contrôleur de domaine
+- On créé ensuite une nouvelle forêt, à laquelle on donne un nom de domaine racine, comme domaine.local ou nom-de-l-entreprise.local (et un nom de NetBIOS pour les anciennes versions)
 - Et on valide l’emplacement (il est conseillé de laisser le chemin par défaut)
-- Enfin, on redémarre la session, et l'Active Directory est installé
+- Enfin, on redémarre la session, et l'Active Directory est installé.
 
 ### 3. **Création** des comptes utilisateurs du domaine
-Il est important de créer des utilisateurs afin que les machines client puissent rejoindre le domaine.
+Il est important de créer des utilisateurs afin que les machines clientes puissent rejoindre le domaine.
 
 Pour créer un utilisateur, il faut :
 
@@ -143,9 +143,18 @@ La solution pour partager des fichiers entre différents utilisateurs est de cr�
 image 68 69 70
 - Modifier ensuite les options de sécurité du dossier (ici encore avec tout les droits, et pour "utilisateur", donc tout le monde)
 image 71 72 73
-- Puis on active l'héritage 
+- On active ensuite l'héritage 
 image 74 75
--  
+- Puis on créé une nouvelle GPO nommé U_partage
+image 76.2
+- Auquel on ajoute un lecteur mappé (dans Modifier/Configuration utilisateur/Préférences/Paramètres Windows/Mappages de lecteurs.), auquel on configure un emplacement, une lettre (la dernière disponible) ... Et que l'on configure en Action "mise à jour"
+image 76.3 77 79
+- Une fois que tout ceci est fait, on peut appliquer cette GPO à un groupe spécifique.
+Dans les propriétés du mappeur réseau, on fait un ciblage :
+image 19
+Dans lequel on chosis son groupe d'utilisateur (ici LTDM)
+image 20
+
 
 
 ## D - Les configurations pour créer un espace centralisé de partage (les choses à faire avant de rejoindre le domaine)

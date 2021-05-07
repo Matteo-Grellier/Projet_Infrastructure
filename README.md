@@ -30,6 +30,12 @@ Notre **solution** comporte :
 
 ### B. [Mise en œuvre des bonnes pratiques]()
 
+1. #### La sécurité
+
+2. #### L'installation
+
+3. #### La nomenclature
+
 
 ### C. [Configuration pour avoir un serveur utilisant un Annuaire et une GPO.](https://github.com/Matteo-Grellier/Projet_Infrastructure/blob/main/doc-architecture.md#c---configuration-pour-avoir-un-serveur-utilisant-un-annuaire-et-une-gpo)
 
@@ -46,7 +52,7 @@ Notre **solution** comporte :
 
 ### Documentation d'exploitation
 
-### B. [Configuration minimale pour être dans le même réseau.](https://github.com/Matteo-Grellier/Projet_Infrastructure/blob/main/doc-architecture.md#b---configuration-minimale-pour-%C3%AAtre-dans-le-m%C3%AAme-r%C3%A9seau)
+### B. [Les configurations pour créer un espace centralisé de partage](https://github.com/Matteo-Grellier/Projet_Infrastructure/blob/main/doc-architecture.md#d---les-configurations-pour-cr%C3%A9er-un-espace-centralis%C3%A9-de-partage-les-choses-%C3%A0-faire-avant-de-rejoindre-le-domaine)
 
 1. #### Désactivation des autres réseaux
 

@@ -1,10 +1,10 @@
-# Documentation d’architecture
+# :closed_book: Documentation d’architecture
 
 ## A - Schéma de l'architecture et détails du réseau
 
 ![img](resources/images/screens/schema.png)
 
-Notre architecture est composé de :
+Notre **architecture** est composé de :
 un switch (+ câbles RJ45)
 3 PC
 2 VM Windows 10 (client)
@@ -23,7 +23,7 @@ Les PC sont reliés au **switch** avec les câbles RJ45, on crée donc un résea
 
 Pour déployer un serveur, il faut suivre certaines règles de bonnes pratiques :
 
-1. La sécurité :
+### 1. La sécurité :
 Il est important qu'un réseau soit sécurisé, pour éviter que l'on puisse notamment accéder aux ordinateurs qui composent ce réseau. C'est pour cela qu'il est important d'appliquer quelques solutions de sécurités comme par exemple : 
 
   - appliquer des mots de passe
@@ -31,19 +31,19 @@ Il est important qu'un réseau soit sécurisé, pour éviter que l'on puisse not
   - des antivirus
   - un protocole DHCP, pour éviter les problèmes et/ou failles potentielles 
 
-2. L'installation :
+### 2. L'installation :
 
 La configuration de la VM Windows Server est importante :
    - Alloué 2Go de mémoire au minimum (plus si possible)
    - Suivre les paramètres recommandés pour l'espace disque (taille, allocation etc...)
 
-3. La nomenclature :
+### 3. La nomenclature :
 Autre point important de bonne pratique, avoir une nomenclature correcte et précise, comme par exemple mettre un U au devant des GPO utilisateurs, pour spécifier qu'elles s'appliquent aux utilisateurs. Et tout simplement, d'avoir des noms indicatifs de l'utilité des GPO, groupes, ou utilisateurs.
 
 
 ## C - **Configuration** pour avoir un serveur utilisant un Annuaire et une GPO
 
-0. A - **Installation** de Windows Server
+### 0. A - **Installation** de Windows Server
 
 Nous ne pouvons pas vous montrer l'installation d'une machine avec Windows Server. 
 
@@ -63,7 +63,7 @@ Une fois le disque dur créé, suivez les étapes jusqu'à arrivé au moment où
 
 Une fois l'installation fait, lancez la VM et suivez les étapes pour installer Windows Server.
 
-0. B - Désactiver le par-feux : 
+### 0. B - Désactiver le par-feux : 
 **Désactivation** des **pare-feux** (après ne plus avoir accès à Internet).
    1) Aller dans ***Paramètres réseau & Internet***
 
@@ -81,7 +81,7 @@ Une fois l'installation fait, lancez la VM et suivez les étapes pour installer 
 
    ![img](IMG/Desactivation_par-feu.png)
 
-0. C - Désactivation du wifi :
+### 0. C - Désactivation du wifi :
 Il peut etre important de désactiver le wifi pour éviter tout problème : 
 
 ![img](resources/images/screens/Wifi.png)
@@ -141,32 +141,32 @@ On choisi donc un mot de passe pour le compte, puis les règles qui lui sont app
 
 Il y a plusieurs petites choses à faire afin d'avoir une communication possible entre les clients / serveur dans le sous-réseau.
 
-1) **Configuration** manuel des **adresses IPv4** pour chaque **PC** et pour leur VM.
-   1) Parametres
-   2) Réseau et Internet
-   3) Centre réseau et partage
-   4) Cliquer comme sur l'image
+### 1) **Configuration** manuel des **adresses IPv4** pour chaque **PC** et pour leur VM.
+1) Parametres
+2) Réseau et Internet
+3) Centre réseau et partage
+4) Cliquer comme sur l'image
 
-   ![img](IMG/parametre_du_reseau.png)
+![img](IMG/parametre_du_reseau.png)
 
-   1) Propriétés
-   2) Chercher `Protocole internet version 4` et double cliquer dessus
-   3) Et ici vous pouvez attribuer une IP personnalisée
+1) Propriétés
+2) Chercher `Protocole internet version 4` et double cliquer dessus
+3) Et ici vous pouvez attribuer une IP personnalisée
 
-2) **Configuration** du **DNS**
-    1) Suivre les instructions comme ci-dessus
-    2) Mettre l’adresse IPv4 de la **machine serveur**.
+### 2) **Configuration** du **DNS**
+1) Suivre les instructions comme ci-dessus
+2) Mettre l’adresse IPv4 de la **machine serveur**.
 
-3) **Configuration** des **VM** (accès par ponts, etc…)
-    1) Dans virtual box choissisez la VM à parametrer
-    2) cliquer sur configurer
+### 3) **Configuration** des **VM** (accès par ponts, etc…)
+1) Dans virtual box choissisez la VM à parametrer
+2) cliquer sur configurer
 
-   ![img](IMG/bouton_configuration.png)
+![img](IMG/bouton_configuration.png)
 
-    1) Allez dans l'onglet réseau
-    2) Dans la liste déroulante `Mode d'accès réseau` choisir `Accès par pont`
+1) Allez dans l'onglet réseau
+2) Dans la liste déroulante `Mode d'accès réseau` choisir `Accès par pont`
 
-    **Attention** : Il faut bien mettre le nom de son interface réseau correspondant.
-    ![img](resources\images\screens\louis-infra\acces_par_pont.png)
+**Attention** : Il faut bien mettre le nom de son interface réseau correspondant.
+![img](resources\images\screens\louis-infra\acces_par_pont.png)
     
 

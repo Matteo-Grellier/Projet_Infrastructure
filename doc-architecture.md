@@ -158,11 +158,15 @@ Il y a plusieurs petites choses à faire afin d'avoir une communication possible
     2) Mettre l’adresse IPv4 de la **machine serveur**.
 
 3) **Configuration** des **VM** (accès par ponts, etc…)
-    1) Dans virtual box choissisez la vm a parametrer
+    1) Dans virtual box choissisez la VM à parametrer
     2) cliquer sur configurer
 
    ![img](IMG/bouton_configuration.png)
 
     1) Allez dans l'onglet réseau
     2) Dans la liste déroulante `Mode d'accès réseau` choisir `Accès par pont`
+
+    **Attention** : Il faut bien mettre le nom de son interface réseau correspondant.
+    ![img](resources\images\screens\louis-infra\acces_par_pont.png)
+    
 

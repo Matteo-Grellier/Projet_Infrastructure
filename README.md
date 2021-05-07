@@ -81,7 +81,13 @@ En **globalité**, une personne se chargeait de **faire la configuration** rése
 
 ### B. 
 
+---
 
+## :bulb: La démonstration
+
+Vous pouvez retrouver les 2 vidéos : 
+- [ici](resources/videos/Infra_1.mp4) pour le partage "basique"
+- [ici](resources/videos/Infra_2.mp4) pour le partage avec lecteur mappé de GPO
 
 --- 
 ## :triangular_flag_on_post: Conclusion et rétrospective

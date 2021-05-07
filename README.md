@@ -1,6 +1,23 @@
-# PARTAGE RÉSEAUX ET ANNUAIRE
+# :card_box: PARTAGE RÉSEAUX ET ANNUAIRE
 
 --- 
+## :desktop: Présentation du Projet
+
+### Notre but : 
+Permettre un espace centralisé d'hébergement, de consultation et de partage de document.
+
+Il fallait donc créer un accès commun à des fichiers à travers un réseau.
+
+### Notre solution : 
+Nous avons créé une solution qui permet le *partage de fichier* entre **plusieurs clients**, par le biais d'un lecteur dans un serveur (par GPO).
+
+Notre **solution** comporte :
+- Un **serveur** et 2 **clients**
+- Un **annuaire** *Active Directory* avec **gestion** des utilisateurs
+- Un **dossier partagé** "classique"
+- Un **lecteur partagé** via **GPO**
+
+---
 ## Sommaire
 
 ### **Documentation d'architecture**

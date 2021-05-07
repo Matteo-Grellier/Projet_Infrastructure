@@ -6,8 +6,8 @@
 
 Notre architecture est composé de :
 un switch (+ câbles RJ45)
-4 PC
-3 VM Windows 10 (client)
+3 PC
+2 VM Windows 10 (client)
 1 VM Windows Server (serveur)
 
 Les PC sont reliés au **switch** avec les câbles RJ45, on crée donc un réseau privé. Chaque PC et chaque VM ont une **adresse IPv4 différentes**.

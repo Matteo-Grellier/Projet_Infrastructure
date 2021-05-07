@@ -137,8 +137,15 @@ On choisi donc un mot de passe pour le compte, puis les règles qui lui sont app
 
 4. **Création** d'un partage de fichier à l'aide d’une **GPO**
 
-- bah d'abord ta mère 
+La solution pour partager des fichiers entre différents utilisateurs est de créer un mapage réseau avec une GPO.
 
+- Tout d'abord, la permière étape consiste à partager sur le réseau un fichier local (ici on donne les droits à tout le monde)
+image 68 69 70
+- Modifier ensuite les options de sécurité du dossier (ici encore avec tout les droits, et pour "utilisateur", donc tout le monde)
+image 71 72 73
+- Puis on active l'héritage 
+image 74 75
+-  
 
 
 ## D - Les configurations pour créer un espace centralisé de partage (les choses à faire avant de rejoindre le domaine)
@@ -160,7 +167,6 @@ Il y a plusieurs petites choses à faire afin d'avoir une communication possible
 ### 2) **Configuration** du **DNS**
 1) Suivre les instructions comme ci-dessus
 2) Mettre l’adresse IPv4 de la **machine serveur**.
-
 ![img](resources/images/screens/dns.png)
 
 ### 3) **Configuration** des **VM** (accès par ponts, etc…)

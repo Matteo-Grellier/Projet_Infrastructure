@@ -52,7 +52,7 @@ Notre **solution** comporte :
 
 ### Documentation d'exploitation
 
-### B. [Les configurations pour créer un espace centralisé de partage](https://github.com/Matteo-Grellier/Projet_Infrastructure/blob/main/doc-architecture.md#d---les-configurations-pour-cr%C3%A9er-un-espace-centralis%C3%A9-de-partage-les-choses-%C3%A0-faire-avant-de-rejoindre-le-domaine)
+### D. [Les configurations pour créer un espace centralisé de partage](https://github.com/Matteo-Grellier/Projet_Infrastructure/blob/main/doc-architecture.md#d---les-configurations-pour-cr%C3%A9er-un-espace-centralis%C3%A9-de-partage-les-choses-%C3%A0-faire-avant-de-rejoindre-le-domaine)
 
 1. #### Désactivation des autres réseaux
 
@@ -67,8 +67,24 @@ Notre **solution** comporte :
 --- 
 ## :triangular_flag_on_post: Conclusion
 
-Nous avons réussi à faire un partage de fichier via GPO ce qui est pour nous une réussite !
 
-L'intérêt du projet est dans les choses qu'on a pu apprendre, on en a un peu plus appris sur la configuration d'un serveur et sur l'infrastructure en général.
 
-Nous avons réussi à faire ce qui était demandé. Nous avons donc réussi à créer un serveur et à avoir une interaction entre Server/Client. Nous avons aussi créér des utilisateurs dans une "OU" (Unités d'Organisation).
+Le **partage de fichier via GPO** est pour nous une réussite et un **aboutissement** de ce projet !
+
+L'intérêt du projet est dans les choses qu'on a pu apprendre, comme la configuration d'un serveur et l'infrastructure réseaux en général. De plus, étant donnée un problème de connaissance acquise avec le cours... Ce projet nous a permis d'en apprendre plus sur le **fonctionnement d'un réseau**, de la configuration avec un **switch** et d'un **sous-réseau** privé.
+
+Nos **réussites fonctionnelle** sont les suivantes :
+
+Nous avons réussi le projet dans sa **globalité**, c'est-à-dire, à faire ce qui était demandé.
+
+Nous avons donc réussi à **créer un serveur** et à avoir une interaction entre **Server/Client**.
+
+Puis nous avons fait une **gestion des utilisateurs** via l'*Active Directory*, puis nous avons créé des utilisateurs dans une "OU" (Unités d'Organisation) afin que les clients puissent rejoindre le domaine.
+
+De plus, nous avons réussi l'**utilisation de GPO**, dans un premier temps (afin de tester) pour **bloquer l'invite de commande**, puis surtout pour le **partage de fichier grâce à un lecteur mappé**.
+
+En revanche, il nous manque une **configuration du DHCP**.
+
+---
+
+## :bulb: Rétrospective

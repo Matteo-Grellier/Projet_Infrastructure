@@ -87,7 +87,7 @@ Il peut etre important de désactiver le wifi pour éviter tout problème :
 ![img](resources/images/screens/Wifi.png)
 
 
-1. **Configuration** du serveur Windows
+### 1. **Configuration** du serveur Windows
 
 Une fois que le serveur est installé, il faut le configurer,
 
@@ -98,7 +98,7 @@ Pour cela, il faut cliquer sur ***Configurer ce serveur local***. Afin que le se
 - Il faut activer le Windows Update ainsi que le Windows Defender pour des raisons évidentes de sécurité.
 - Et enfin, il faut redémarrer le serveur pour que les modifications soient prises en compte
 
-2. **Création** d’un domaine Active Directory
+### 2. **Création** d’un domaine Active Directory
 
 Maintenant que le serveur est installé et configuré, il faut maintennat installer un Active Directory (ou AD) qui sert de système de gestion du domaine, et qui nous permettera de relier tout les utilisateures, ainsi que de maitriser leurs droits.
 
@@ -109,7 +109,7 @@ Maintenant que le serveur est installé et configuré, il faut maintennat instal
 - Et on valide l’emplacement (il est conseillé de laisser le chemin par défaut)
 - Enfin, on redémarre la session, et l'Active Directory est installé
 
-3. **Création** des comptes utilisateurs du domaine
+### 3. **Création** des comptes utilisateurs du domaine
 Il est important de créer des utilisateurs afin que les machines client puissent rejoindre le domaine.
 
 Pour créer un utilisateur, il faut :
@@ -135,7 +135,7 @@ Vous pouvez donc donner un *nom*, *prénom*, mais aussi le *nom d'ouverture de s
 On choisi donc un mot de passe pour le compte, puis les règles qui lui sont appliqués comme : "Le mot de passe n'expire jamais".
 
 
-4. **Création** d’une **GPO**
+### 4. **Création** d’une **GPO**
 
 ## D - Les configurations pour créer un espace centralisé de partage (les choses à faire avant de rejoindre le domaine)
 

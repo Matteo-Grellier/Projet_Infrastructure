@@ -140,20 +140,31 @@ On choisi donc un mot de passe pour le compte, puis les règles qui lui sont app
 La solution pour partager des fichiers entre différents utilisateurs est de créer un mapage réseau avec une GPO.
 
 - Tout d'abord, la permière étape consiste à partager sur le réseau un fichier local (ici on donne les droits à tout le monde)
-image 68 69 70
+
+![img](/resources/images/screens/GPO_screens/Capture_d’écran_68.png)
+![img](/resources/images/screens/GPO_screens/Capture_d’écran_69.png)
+![img](/resources/images/screens/GPO_screens/Capture_d’écran_70.png)
 - Modifier ensuite les options de sécurité du dossier (ici encore avec tout les droits, et pour "utilisateur", donc tout le monde)
-image 71 72 73
+
+![img](/resources/images/screens/GPO_screens/Capture_d’écran_71.png)
+![img](/resources/images/screens/GPO_screens/Capture_d’écran_72.png)
+![img](/resources/images/screens/GPO_screens/Capture_d’écran_73.png)
 - On active ensuite l'héritage 
-image 74 75
+
+![img](/resources/images/screens/GPO_screens/Capture_d’écran_74.png)
+![img](/resources/images/screens/GPO_screens/Capture_d’écran_75.png)
 - Puis on créé une nouvelle GPO nommé U_partage
-image 76.2
+
+![img](/resources/images/screens/GPO_screens/Capture_d’écran_76.2.png)
 - Auquel on ajoute un lecteur mappé (dans Modifier/Configuration utilisateur/Préférences/Paramètres Windows/Mappages de lecteurs.), auquel on configure un emplacement, une lettre (la dernière disponible) ... Et que l'on configure en Action "mise à jour"
-image 76.3 77 79
+![img](/resources/images/screens/GPO_screens/Capture_d’écran_76.3.png)
+![img](/resources/images/screens/GPO_screens/Capture_d’écran_77.png)
+![img](/resources/images/screens/GPO_screens/Capture_d’écran_79.png)
 - Une fois que tout ceci est fait, on peut appliquer cette GPO à un groupe spécifique.
 Dans les propriétés du mappeur réseau, on fait un ciblage :
-image 19
+![img](/resources/images/screens/gpo/Capture_d’écran_19.png)
 Dans lequel on chosis son groupe d'utilisateur (ici LTDM)
-image 20
+![img](/resources/images/screens/gpo/Capture_d’écran_20.png)
 
 
 

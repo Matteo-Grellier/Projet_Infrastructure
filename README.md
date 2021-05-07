@@ -60,8 +60,7 @@ En **globalité**, une personne se chargeait de **faire la configuration** rése
 
 5. #### Création d’une GPO
 
-
-### D. [Les configurations pour créer un espace centralisé de partage](https://github.com/Matteo-Grellier/Projet_Infrastructure/blob/main/doc-architecture.md#d---les-configurations-pour-cr%C3%A9er-un-espace-centralis%C3%A9-de-partage-les-choses-%C3%A0-faire-avant-de-rejoindre-le-domaine)
+### D. [Les configurations pour créer un espace centralisé de partage](doc-architecture.md#d---les-configurations-pour-cr%C3%A9er-un-espace-centralis%C3%A9-de-partage-les-choses-%C3%A0-faire-avant-de-rejoindre-le-domaine)
 
 1. #### Désactivation des autres réseaux
 

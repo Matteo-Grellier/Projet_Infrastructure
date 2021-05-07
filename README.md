@@ -39,7 +39,7 @@ En **globalité**, une personne se chargeait de **faire la configuration** rése
 
 2. #### Configuration du réseau (masque, IPv4, etc...)
 
-### B. [Mise en œuvre des bonnes pratiques](doc-architecture.md#b---mise-en-œuvre-des-bonnes-pratiques)
+### B. [Mise en œuvre des bonnes pratiques](doc-architecture.md#b---mise-en-%C5%93uvre-des-bonnes-pratiques)
 
 1. #### La sécurité
 

@@ -63,7 +63,7 @@ Une fois le disque dur créé, suivez les étapes jusqu'à arriver au moment où
 
 Une fois l'installation fait, lancez la VM et suivez les étapes pour installer Windows Server.
 
-### 0. B - Désactiver le par-feux : 
+### 0. B - Désactiver le par-feu : 
 **Désactivation** des **pare-feu** (après ne plus avoir accès à Internet).
    1) Aller dans ***Paramètres réseau & Internet***
 

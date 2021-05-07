@@ -79,7 +79,9 @@ En **globalité**, une personne se chargeait de **faire la configuration** rése
 
 ### A. Allumer les VMs clients
 
-### B. 
+### B. Connexion au domaine
+
+### C. Application d'une GPO
 
 ---
 

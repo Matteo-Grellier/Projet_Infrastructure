@@ -50,6 +50,8 @@ En **globalité**, une personne se chargeait de **faire la configuration** rése
 
 ### C. [Configuration pour avoir un serveur utilisant un Annuaire et une GPO.](doc-architecture.md#c---configuration-pour-avoir-un-serveur-utilisant-un-annuaire-et-une-gpo)
 
+0. #### Choses basiques mais importantes
+
 1. #### Configuration du serveur Windows
 
 2. #### Création d’un domaine Active Directory
@@ -79,7 +81,13 @@ En **globalité**, une personne se chargeait de **faire la configuration** rése
 
 ### B. 
 
+---
 
+## :bulb: La démonstration
+
+Vous pouvez retrouver les 2 vidéos : 
+- [ici](resources/videos/Infra_1.mp4) pour le partage "basique"
+- [ici](resources/videos/Infra_2.mp4) pour le partage avec lecteur mappé de GPO
 
 --- 
 ## :triangular_flag_on_post: Conclusion et rétrospective
